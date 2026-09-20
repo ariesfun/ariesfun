@@ -2,12 +2,13 @@
   Ariesfun 的 GitHub 主页
   仓库名必须是 ariesfun/ariesfun，README.md 才会显示在个人主页上。
   所有图片都做了明暗主题适配：GitHub 切换深色模式时会自动换图。
+  横幅素材：OpenGameArt「Mixed Fantasy Backgrounds」CC0（上传者 ulfus，原画 olracadejup）
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset=".github/assets/banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset=".github/assets/banner-light.svg" />
-  <img width="100%" alt="Ariesfun — Make you unique!" src=".github/assets/banner-light.svg" />
+  <source media="(prefers-color-scheme: dark)"  srcset=".github/assets/banner-dark.jpg" />
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/banner-light.jpg" />
+  <img width="100%" alt="Ariesfun — Make you unique!" src=".github/assets/banner-light.jpg" />
 </picture>
 
 <h2 align="center">「 Make you unique ! 」</h2>
