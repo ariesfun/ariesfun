@@ -4,7 +4,7 @@
 
 **C/C++ 仿真工程师 · 飞行机动建模 · 网络通信中间件 · 可视化软件**
 
-一个喜欢往底层刨的工程师。面向类 AFSIM 的仿真推演平台，开发 C++ 机动模型算法库，维护平台界面插件；擅长疑难问题的排查定位。
+面向类 AFSIM 的仿真平台：开发 C++ 飞行机动模型算法库，维护 Qt 可视化插件，负责异构系统间的网络通信中间件；擅长长期运行系统中堆损坏、并发、生命周期类疑难崩溃的取证与定位。
 
 - Blog [https://ariesfun.github.io](https://ariesfun.github.io)
 - Bilibili [https://space.bilibili.com/172382106](https://space.bilibili.com/172382106)
@@ -19,14 +19,14 @@
 | 通信与网络 | OpenDDS、ZeroMQ、RFM2G 反射内存、UDP、WebSocket |
 | 界面与三维 | Qt、OSG、QGIS |
 | 调试诊断 | WinDbg、Application Verifier / PageHeap、ProcDump、崩溃转储分析 |
-| 平台 | Windows、Linux ARM64（麒麟） |
+| 平台 | Windows、Linux ARM64（麒麟）、macOS |
 | 工具链 | VS2022 / VS2015、CMake、Git、GitHub Actions、Docker、Shell |
 
 ## Projects
 
-- **[json-parser](https://github.com/ariesfun/json-parser)** —— 独立跨平台的 JSON 解析器，支持序列化 / 反序列化；解析核心仅 200 行，性能优于 jsoncpp、nlohmann。<br>`C++11` · `STL` · `CMake`
+- **[json-parser](https://github.com/ariesfun/json-parser)** —— 无第三方依赖的跨平台 JSON 解析器，支持序列化 / 反序列化；解析核心约 200 行，3KB 文档平均解析 0.14ms（同条件 jsoncpp 0.16ms、nlohmann 0.24ms）。<br>`C++11` · `STL` · `CMake`
 
-- **[SpaceShooter](https://github.com/ariesfun/SpaceShooter)** —— 太空战机射击游戏，Scene / Object 分层架构，含完整音效与美术资源，跨平台构建。<br>`C++` · `SDL2` · `CMake`
+- **[SpaceShooter](https://github.com/ariesfun/SpaceShooter)** —— 太空战机射击游戏，Scene / Object 分层架构，基于 SDL2 封装的跨平台渲染与输入。<br>`C++` · `SDL2` · `CMake`
 
 - **本地大模型** —— 在 M2 Max 上跑 llama.cpp 推理服务，Tailscale 组网，外出时也能调用家里算力。<br>`llama.cpp` · `llama-server` · `Tailscale`
 
