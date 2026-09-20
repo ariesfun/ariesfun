@@ -9,25 +9,25 @@
 
 [![My Skills](https://skillicons.dev/icons?i=c,cpp,python,java,mysql,sqlite,linux,ubuntu,debian,git,github,githubactions,bash,cmake,docker,vscode,vim,markdown,html,css,javascript,nginx)](https://skillicons.dev)
 
-## 正在折腾
+## Working On
 
 - **CMU 15-445** —— 跟着 bustub 手写 Buffer Pool Manager、B+ Tree，把课程 lab 拼成一个能跑的关系型数据库。
 - **本地大模型** —— llama.cpp + Tailscale，人在外面也能用上家里那台机器的算力。
 - **Hexo 博客** —— 折腾博客本身，最近让博客壁纸实时跟着 B 站首页走。
 
-## 精选项目
+## Projects
 
 - **[json-parser](https://github.com/ariesfun/json-parser)** —— 纯 C++ 手写的 JSON 解析器，练手递归下降。
 - **[SpaceShooter](https://github.com/ariesfun/SpaceShooter)** —— 跨平台太空战机射击游戏，C + CMake。
 - **[ariesfun.github.io](https://github.com/ariesfun/ariesfun.github.io)** —— 博客源码，Hexo + 自己改的主题。
 
-## 联系我
+## Contacts
 
 - Email [ariesfun2019@outlook.com](mailto:ariesfun2019@outlook.com)
 - QQ [2018351840](http://wpa.qq.com/msgrd?v=3&uin=2018351840&site=qq&menu=yes)
 - Issue [github.com/ariesfun/ariesfun/issues](https://github.com/ariesfun/ariesfun/issues)
 
-## 统计
+## Statistics
 
 <div align=center>
 
