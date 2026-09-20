@@ -1,30 +1,38 @@
 <img width="100%" alt="Ariesfun" src=".github/assets/banner.png" />
 
-## Make you unique!
+## Hi, I'm Ariesfun 👋
 
-**这里是 Ariesfun !** 一个喜欢往底层刨的 C/C++ 玩家，方向是数据库内核与 Linux 系统编程。
+**C/C++ 仿真工程师 · 飞行机动建模 · 网络通信中间件 · 可视化软件**
+
+一个喜欢往底层刨的工程师。面向类 AFSIM 的仿真推演平台，开发 C++ 机动模型算法库，维护平台界面插件；擅长疑难问题的排查定位。
 
 - Blog [https://ariesfun.github.io](https://ariesfun.github.io)
 - Bilibili [https://space.bilibili.com/172382106](https://space.bilibili.com/172382106)
 
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,python,java,mysql,sqlite,linux,ubuntu,debian,git,github,githubactions,bash,cmake,docker,vscode,vim,markdown,html,css,javascript,nginx)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,python,java,qt,visualstudio,cmake,docker,git,github,githubactions,bash,windows,linux,apple)](https://skillicons.dev)
 
-## Working On
+## Tech Stack
 
-- **CMU 15-445** —— 跟着 bustub 手写 Buffer Pool Manager、B+ Tree，把课程 lab 拼成一个能跑的关系型数据库。
-- **本地大模型** —— llama.cpp + Tailscale，人在外面也能用上家里那台机器的算力。
-- **Hexo 博客** —— 折腾博客本身，最近让博客壁纸实时跟着 B 站首页走。
+| 方向 | 内容 |
+|---|---|
+| 语言 | C++11 / 14 / 17、C、Python 3、Java |
+| 通信与网络 | OpenDDS、ZeroMQ、RFM2G 反射内存、UDP、WebSocket |
+| 界面与三维 | Qt、OSG、QGIS |
+| 调试诊断 | WinDbg、Application Verifier / PageHeap、ProcDump、崩溃转储分析 |
+| 平台 | Windows、Linux ARM64（麒麟） |
+| 工具链 | VS2022 / VS2015、CMake、Git、GitHub Actions、Docker、Shell |
 
 ## Projects
 
-- **[json-parser](https://github.com/ariesfun/json-parser)** —— 纯 C++ 手写的 JSON 解析器，练手递归下降。
-- **[SpaceShooter](https://github.com/ariesfun/SpaceShooter)** —— 跨平台太空战机射击游戏，C + CMake。
-- **[ariesfun.github.io](https://github.com/ariesfun/ariesfun.github.io)** —— 博客源码，Hexo + 自己改的主题。
+- **[json-parser](https://github.com/ariesfun/json-parser)** —— 独立跨平台的 JSON 解析器，支持序列化 / 反序列化；解析核心仅 200 行，性能优于 jsoncpp、nlohmann。<br>`C++11` · `STL` · `CMake`
+
+- **[SpaceShooter](https://github.com/ariesfun/SpaceShooter)** —— 太空战机射击游戏，Scene / Object 分层架构，含完整音效与美术资源，跨平台构建。<br>`C++` · `SDL2` · `CMake`
+
+- **本地大模型** —— 在 M2 Max 上跑 llama.cpp 推理服务，Tailscale 组网，外出时也能调用家里算力。<br>`llama.cpp` · `llama-server` · `Tailscale`
 
 ## Contacts
 
 - Email [ariesfun2019@outlook.com](mailto:ariesfun2019@outlook.com)
-- QQ [2018351840](http://wpa.qq.com/msgrd?v=3&uin=2018351840&site=qq&menu=yes)
 - Issue [github.com/ariesfun/ariesfun/issues](https://github.com/ariesfun/ariesfun/issues)
 
 ## Statistics
